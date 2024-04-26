@@ -22,7 +22,7 @@ region_list = ["benin-malanville","sierraleone-bumbuna","togo-dapaong_qc"]
 st.sidebar.header("Pick your Region: ")
 region = st.sidebar.selectbox("select",region_list)
 region = "benin-malanville"
-df = pd.read_csv("../data/"+ region + ".csv", encoding = "ISO-8859-1")
+df = pd.read_csv("../../data/"+ region + ".csv", encoding = "ISO-8859-1")
 
 col1, col2 = st.columns((2))
 
